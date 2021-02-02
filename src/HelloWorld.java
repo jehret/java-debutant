@@ -1,8 +1,8 @@
 public class HelloWorld {
     public static void main(String... args){
-        float resultat=5f/2;
-        int reste=5%2;
-        System.out.println(resultat);
-        System.out.println(reste);
+        boolean bool1=true;
+        boolean bool2=false;
+        boolean estCeQueCestVrai=bool1!=bool2;
+        System.out.println(estCeQueCestVrai);
     }
 }
