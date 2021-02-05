@@ -1,9 +1,7 @@
 public class HelloWorld {
     public static void main(String... args){
-        int valeurEntiere=5;
-        int valeurEntiere2;
-        valeurEntiere2=valeurEntiere--;
-        System.out.println(valeurEntiere);
-        System.out.println(valeurEntiere2);
+        String debut="Mon age est ";
+        int age=43;
+        System.out.println(debut+(age+1));
     }
 }
