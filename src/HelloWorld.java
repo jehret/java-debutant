@@ -1,8 +1,8 @@
 public class HelloWorld {
     public static void main(String... args) {
-        int age = 43;
+        int age = 30;
         System.out.printf("Mon age est %d ans.", age);
-        if (age > 30) {
+        if (age >= 30) {
             System.out.println(" Oui, je fais plus jeune.");
         }
 
