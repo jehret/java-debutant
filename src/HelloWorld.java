@@ -1,9 +1,10 @@
 public class HelloWorld {
     public static void main(String... args) {
-        int nb=0;
-        for (;nb<3; nb++){
+        boolean jeContinue=false;
+        do {
             System.out.println("Hello World!");
+            jeContinue=true;
         }
-        System.out.println("Nb vaut maintenant "+nb);
+        while (jeContinue);
     }
 }
