@@ -8,5 +8,13 @@ public class HelloWorld {
 
         System.out.println("La voiture est "+voitureDeMichel.couleur+" et elle dispose de "+voitureDeMichel.nbPortes+" portes.");
 
+        Voiture voitureDeJerome=new Voiture();
+        voitureDeJerome.couleur="Rouge";
+        voitureDeJerome.couleur=null;
+
+        if (voitureDeJerome.couleur==null){
+            System.out.println("Couleur null");
+        }
+
     }
 }
